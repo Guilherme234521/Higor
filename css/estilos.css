@@ -1,15 +1,16 @@
 :root {
   --cinza: #182cb5cb9307;
-  --vermelha: #1f56bbd9;
-  --vermelha-escura: #461d4b;
+  --vermelha: #182cb500;
+  --vermelha-escura: #14141400;
   --branca: #fff;
-  --luz: rgb(25 42 243 / 80%);
+  --luz: rgb(255 255 255);
+  --orange: #0b3a3f;
 }
 
 
 body { 
   align-items: center;
-  background-image: url();
+  background-image: url(https://www.itl.cat/pngfile/big/283-2834178_chaves-dentro-do-barril.jpg);
   background-size: 2000px 1100px;
   background-repeat: no-repeat;
   display: flex;
@@ -26,8 +27,8 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #778e2d5c 0%,#9fa12747 100%);
-  box-shadow: 6px 6px 0 6px #12547957, 20px 20px 5px #000;
+  background: linear-gradient(to bottom, #185209cf 0%,#bd9380ba 100%);
+  box-shadow: 6px 6px 0 6px #12547900, 20px 20px 5px #000;
   border-radius: 20px;
   display: grid;
   gap: 20px;
@@ -67,4 +68,8 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+.tecla_title{
+  color: var(--orange);
 }
