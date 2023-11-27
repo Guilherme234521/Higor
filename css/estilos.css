@@ -1,10 +1,10 @@
 :root {
-  --cinza: #182cb5cb9307;
-  --vermelha: #182cb500;
-  --vermelha-escura: #14141400;
+  --cinza: #0b0202f2;
+  --vermelha: #4b93279c;
+  --vermelha-escura: #ffffff8c;
   --branca: #fff;
-  --luz: rgb(255 255 255);
-  --orange: #0b3a3f;
+  --luz: rgb(249 249 249);
+  --orange: #ffffff;
 }
 
 
@@ -21,15 +21,22 @@ body {
 }
 
 h1 {
-  color:  #fff;
-  margin-bottom: 50px;
-  font-size: 3rem;
+  color:  #fff0;
+  margin-bottom: 40px;
+  font-size: 6rem;
+  box-shadow: 1px 1px 10px var(--lu);
+  background: url(https://seeklogo.com/images/C/chaves-logo-A0E0A6F56E-seeklogo.com.png);
+  background-repeat: no-repeat;
+  background-size: 500px 100px
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #185209cf 0%,#bd9380ba 100%);
-  box-shadow: 6px 6px 0 6px #12547900, 20px 20px 5px #000;
-  border-radius: 20px;
+  background: url(https://img.elo7.com.br/product/original/47A1FA0/camiseta-chaves-1-peca-chiquinha.jpg);
+  background-size: 900px 1000px;
+  background-position: -240px -180px;
+  background-repeat: no-repeat;
+  box-shadow: -1px -1px 1px #000000, 20px 20px 5px #000000eb;
+  border-radius: 30px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
@@ -37,13 +44,13 @@ h1 {
 }
 
 .tecla {
-  background-color: #ffffffd1;
+  background-color: #4b9327;
   border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
-  color: var(--vermelha);
+  box-shadow: 3px 3px 3px 0 var(--cinza);
+  color: var(--cinza);
   cursor: pointer;
   height: 120px;
-  font-size: 1.75em;
+  font-size: 1.80em;
   font-weight: bold;
   line-height: 120px;
   text-align: center;
